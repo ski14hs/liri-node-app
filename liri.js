@@ -35,6 +35,7 @@ function concert(name){
         }
         
         // fs.appendFile('log.txt', result);
+        fs.appendFile('log.txt', 'concert-this ' + name + '\n' + result);
         console.log(result);
     });
     
