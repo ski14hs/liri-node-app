@@ -20,7 +20,7 @@ function concert(name){
     request(URL, function (error, response, body) {
         // console.log('error:', error); // Print the error if one occurred
         if(error){
-            console.log('error: ', error);
+            return console.log('error: ', error);
         }
         // console.log(body);
         // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
@@ -77,7 +77,7 @@ function movie(name){
     request(URL, function (error, response, body) {
         // console.log('error:', error); // Print the error if one occurred
         if(error){
-            console.log('error: ', error);
+            return console.log('error: ', error);
         }
         // console.log(body);
         // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
@@ -91,7 +91,7 @@ function movie(name){
 
 function doSays(){
     //run do-what-it-says
-    fs.appendFile('log.txt', 'do-what-it-says\n\n');
+    fs.appendFile('log.txt', '\n\ndo-what-it-says\n');
     fs.readFile("random.txt", "utf8", function(error, data){
         if(error){ 
             return console.log(error);
@@ -102,7 +102,7 @@ function doSays(){
             return console.log("Text file is empty");
         }
         var type = params[0];
-        var term = params[1];
+        var term = params[1].replace(/['"]+/g, '');
         if(type === "concert-this"){
             //run concert
             concert(term);
