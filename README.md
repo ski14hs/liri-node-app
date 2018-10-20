@@ -18,4 +18,4 @@ will read random.txt in the same directory and parse the instructions that are '
 All instructions will also print out the log.txt as well as their results.
 
 Here is a screenshot of the first 3 functions:
-<img src='first3.png'>
+![Image of first 3](First3.png)
