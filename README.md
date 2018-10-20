@@ -3,7 +3,7 @@ An App to read lyrics and utilizing Bands in Town, Spotify, and OMDB apis
 
 Liri will recognize the following commands and get the data from the appropriate API:
 
-`node liri.js concert-this <artist/band name here>`
+1. `node liri.js concert-this <artist/band name here>`
 will reach out to bandsintown API and print out Name of venue, Venue location, and Date of Event
 
 2. `node liri.js spotify-this-song '<song name here>'`
@@ -18,3 +18,4 @@ will read random.txt in the same directory and parse the instructions that are '
 All instructions will also print out the log.txt as well as their results.
 
 Here is a screenshot of the first 3 functions:
+<img src='first3.png'>
