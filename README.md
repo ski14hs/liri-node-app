@@ -16,3 +16,5 @@ will reach out the imdb and print out the movie's title, year released, IMDB rat
 will read random.txt in the same directory and parse the instructions that are ',' separated from the above list. 
 
 All instructions will also print out the log.txt as well as their results.
+
+Here is a screenshot of the first 3 functions:
