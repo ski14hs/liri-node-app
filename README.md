@@ -19,3 +19,9 @@ All instructions will also print out the log.txt as well as their results.
 
 Here is a screenshot of the first 3 functions:
 ![Image of first 3](First3.png)
+
+Here is a screenshot calling do-what-it-says with the following values
+Random.txt with the value: concert-this,"Taylor Swift"
+then: spotify-this-song,"California Dreaming"
+then: movie-this,"Avengers"
+![Image of second 3](Second3.png)
