@@ -25,3 +25,5 @@ Random.txt with the value: concert-this,"Taylor Swift"
 then: spotify-this-song,"California Dreaming"
 then: movie-this,"Avengers"
 ![Image of second 3](Second3.png)
+
+log.txt is also provided of the above 6 functions.
